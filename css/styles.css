@@ -6,16 +6,14 @@
     --team-color:#F4F4FD;
     --footer-color: #E7E9FC;
     --hover-color: #404BBF;
-    --background-page:#F5F5F5;
 }
 
 
 body{
     font-family: 'Roboto', sans-serif;
     color: var(--primary-color);
-    font-weight: 400;
     font-size: 16px;
-    background-color: var(--background-page);
+    background-color: var(--white-color);
 
 
 }
@@ -93,7 +91,6 @@ body{
     line-height: 1.07;
 }
 
-.filter-btn,
 .hero-btn{
     font-family: 'Roboto', sans-serif;
     color: var(--white-color);
@@ -106,11 +103,8 @@ body{
     letter-spacing: 0.04em;
 
     cursor: pointer;
-    border: 0;
-
+    border: none;
 }
-.filter-btn:hover,
-.filter-btn:focus,
 .hero-btn:hover,
 .hero-btn:focus{
     background-color: var(--hover-color);
@@ -139,13 +133,6 @@ body{
 .team-section{
     color: var(--secondary-color);
     background-color: var(--team-color);
-
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-
-    letter-spacing: 0.02em;
-
 }
 
 .team-list{
@@ -154,10 +141,8 @@ body{
 
 .card-text,
 .text{
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-weight: 400;
     }
 
 /*Footer*/
@@ -168,4 +153,27 @@ body{
 
 .footer-text{
     color: var(--footer-color);
+}
+
+/*Portfolio*/
+
+.filter-btn{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--team-color);
+    color: var(--web-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    cursor: pointer;
+    border: none;
+}
+.filter-btn:hover,
+.filter-btn:focus{
+    background-color: var(--hover-color);
+    color:white;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+
 }
